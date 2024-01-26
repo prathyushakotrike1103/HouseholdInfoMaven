@@ -5,10 +5,13 @@ Make sure maven is install in you local system
 
 Steps to install maven for windows 
 
---- Download maven from (https://maven.apache.org/download.cgi?Preferred=ftp%3A%2F%2Fmirror.reverse.net%2Fpub%2Fapache%2F) and download apache-maven-version-bin.zip 
+Download maven  
 
+    https://maven.apache.org/download.cgi?Preferred=ftp%3A%2F%2Fmirror.reverse.net%2Fpub%2Fapache%2F 
+    
+    Download apache-maven-version-bin.zip 
 
---- Make sure envirnoment variables are set.
+Make sure envirnoment variables are set.
 
     Create new system variable 
     
@@ -20,19 +23,25 @@ Steps to install maven for windows
     
     %MAVEN_HOME%\bin
     
---- To check reload/restart cmd and type mvn --version(make sure path is set to your project folder)
+To check reload/restart cmd and type 
+
+    mvn --version(make sure path is set to your project folder)
 
     example : C:\Users\prath\eclipse-workspace\HouseholdProject>mvn --version
     
 
 Build Command
 
-mvn install clean
+    mvn install clean
 
 Run Command
 
---- To run source file : mvn exec:java -Dexec.mainClass="com.example.MainClass"
+To run source file : 
+    
+    mvn exec:java -Dexec.mainClass="com.example.MainClass"
 
-    C:\Users\prath\eclipse-workspace\HouseholdProject>mvn exec:java -Dexec.mainClass="householdInfo.HouseholdDetails"
+    example :  C:\Users\prath\eclipse-workspace\HouseholdProject>mvn exec:java -Dexec.mainClass="householdInfo.HouseholdDetails"
 
---- To run test cases : mvn test
+To run test cases 
+
+    mvn test
