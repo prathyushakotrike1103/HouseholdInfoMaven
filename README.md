@@ -6,6 +6,8 @@ Make sure maven is install in you local system
 Steps to install maven for windows 
 
 --- Download maven from (https://maven.apache.org/download.cgi?Preferred=ftp%3A%2F%2Fmirror.reverse.net%2Fpub%2Fapache%2F) and download apache-maven-version-bin.zip 
+
+
 --- Make sure envirnoment variables are set.
     Create new system variable 
     name : MAVEN_HOME
